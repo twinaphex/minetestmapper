@@ -6,7 +6,7 @@ A port of minetestmapper.py to C++ from https://github.com/minetest/minetest/tre
 Requirements
 ------------
 
-* libgd
+* FreeImage
 * sqlite3
 * leveldb (optional, set ENABLE_LEVELDB=1 in CMake to enable leveldb support)
 * hiredis (optional, set ENABLE_REDIS=1 in CMake to enable redis support)

@@ -70,4 +70,3 @@ PlayerAttributes::Players::iterator PlayerAttributes::end()
 {
 	return m_players.end();
 }
-

@@ -1,7 +1,7 @@
 #ifndef TILEGENERATOR_HEADER
 #define TILEGENERATOR_HEADER
 
-#include <gd.h>
+#include <FreeImage.h>
 #include <iosfwd>
 #include <list>
 #include <config.h>
@@ -104,7 +104,7 @@ private:
 	int m_border;
 
 	DB *m_db;
-	gdImagePtr m_image;
+	FIBITMAP *m_image;
 	PixelAttributes m_blockPixelAttributes;
 	int m_xMin;
 	int m_xMax;
